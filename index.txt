@@ -2,23 +2,20 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Michael Kinyon
+Michael Kinyon
+Game Developer
 
 Show Contacts
 
 Email
-richard@example.com
+michaelkinyon@gmail.com
 
 Phone
-+1 (213) 352-2795
-
-Birthday
-June 23, 1982
++1 (619) 366-7062
 
 Location
-Sacramento, California, USA
+San Diego, California, USA
 
 # navbar
 
