@@ -1,23 +1,42 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="500" height="500" viewBox="0 0 500 500" xml:space="preserve">
-<desc>Created with Fabric.js 5.2.4</desc>
-<defs>
-</defs>
-<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
-<g transform="matrix(1 0 0 1 250 250)" id="c2d3a430-da35-40d8-8031-63090283f2ef"  >
-<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-250" y="-250" rx="0" ry="0" width="500" height="500" />
-</g>
-<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="eeb85d57-35ae-40f9-84b4-88d630502ee6"  >
-</g>
-<g transform="matrix(0.74 0 0 0.74 250 250)"  >
-<g style="" vector-effect="non-scaling-stroke"   >
-		<g transform="matrix(1 0 0 1 0 0)"  >
-<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
-</g>
-		<g transform="matrix(0.34 0 0 0.34 0 0)"  >
-<path style="stroke: rgb(0,255,255); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-896, -960)" d="M 553 1399 L 503 1449 Q 493 1459 480 1459 Q 467 1459 457 1449 L -9 983 Q -19 973 -19 960 Q -19 947 -9 937 L 457 471 Q 467 461 480 461 Q 493 461 503 471 L 553 521 Q 563 531 563 544 Q 563 557 553 567 L 160 960 L 553 1353 Q 563 1363 563 1376 Q 563 1389 553 1399 z M 1144 332 L 771 1623 Q 767 1636 755.5 1642.5 Q 744 1649 732 1645 L 670 1628 Q 657 1624 650.5 1612.5 Q 644 1601 648 1588 L 1021 297 Q 1025 284 1036.5 277.5 Q 1048 271 1060 275 L 1122 292 Q 1135 296 1141.5 307.5 Q 1148 319 1144 332 z M 1801 983 L 1335 1449 Q 1325 1459 1312 1459 Q 1299 1459 1289 1449 L 1239 1399 Q 1229 1389 1229 1376 Q 1229 1363 1239 1353 L 1632 960 L 1239 567 Q 1229 557 1229 544 Q 1229 531 1239 521 L 1289 471 Q 1299 461 1312 461 Q 1325 461 1335 471 L 1801 937 Q 1811 947 1811 960 Q 1811 973 1801 983 z" stroke-linecap="round" />
-</g>
-</g>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="ionicon"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="icon-code.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.6269531"
+     inkscape:cx="256"
+     inkscape:cy="206.82833"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     fill="none"
+     stroke="currentColor"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="32"
+     d="M 160,368 32,256 160,144 M 352,368 480,256 352,144 M 304,96 208,416"
+     id="path1"
+     style="stroke:#00ffff" />
 </svg>
