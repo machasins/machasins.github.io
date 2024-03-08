@@ -1,11 +1,7 @@
 'use strict';
 
-
-
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
-
-
 
 // sidebar variables
 const sidebar = document.querySelector("[data-sidebar]");
@@ -58,7 +54,7 @@ overlay.addEventListener("click", testimonialsModalFunc);
 // custom select variables
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
+const selectValue = document.querySelector("[data-select-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
 select.addEventListener("click", function () { elementToggleFunc(this); });
@@ -84,7 +80,7 @@ const filterFunc = function (selectedValue) {
 
     if (selectedValue === "all") {
       filterItems[i].classList.add("active");
-    } else if (selectedValue === filterItems[i].dataset.category) {
+    } else if (selectedValue === filterItems[i].dataset.category.toLowerCase()) {
       filterItems[i].classList.add("active");
     } else {
       filterItems[i].classList.remove("active");
@@ -156,4 +152,36 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
 
   });
+}
+
+function nav(pageName) {
+  
+  if (pageName === null) return;
+  
+  const navigationLinks = document.querySelectorAll("[data-nav-link]");
+  const pages = document.querySelectorAll("[data-page]");
+  
+  var foundPage = false;
+  for (let i = 0; i < pages.length; i++) {
+    if (pageName.toLowerCase() === pages[i].dataset.page) {
+      pages[i].classList.add("active");
+      navigationLinks[i].classList.add("active");
+      window.scrollTo(0, 0);
+      foundPage = true;
+    } else {
+      pages[i].classList.remove("active");
+      navigationLinks[i].classList.remove("active");
+    }
+  }
+  
+  if (foundPage === false) {
+    pages[0].classList.add("active");
+    navigationLinks[0].classList.add("active");
+    window.scrollTo(0, 0);
+  }
+}
+
+function onLoad() {
+  const searchParams = new URLSearchParams(window.location.search);
+  nav(searchParams.get("page"));
 }
