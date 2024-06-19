@@ -188,36 +188,44 @@
       <article class="about  active">
 
         <header>
-          <h2 class="h2 article-title">Shoot To Thrill</h2>
+          <h2 class="h2">Shoot to Thrill</h2>
+          <p class="h5 text-right article-title"> (Jan 2020 - Apr 2020)</p>
         </header>
-        <p class="card-center">
-          a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+        <p class="card-text text-center">
+          A parkour focused, first person shooter where the player plays a movie star filming the climactic scene of an action movie, where the player gains points by performing cool action moves and taking out stuntmen.
+          <br/> <br/>
+          I designed and built the AI enemies as well as populating them throughout the level, and giving them paths and determining what their idle state is. I also tweaked the AIs to act differently depending on what weapon type they utilized. I also designed and revamped weapons so that they fit the playstyle the AIs were using for them. I also designed support drones that hovered around other enemies and adding much needed variety into the fights.
+          <br/> <br/>
         </p>
 
-        <video class="card-video" width="90%" loop controls autoplay muted>
-          <source src="../../../assets/portfolio/CORNered/cornered_destruction.mp4" type="video/mp4">
-        </video>
+        <div class="card-image">
+          <img src="../../../assets/portfolio/ShootToThrill/arena.png"/>
+        </div>
         
         <br/>
         
         <div class="grid">
           <div class="card-image">
-            <img src="../../../assets/portfolio/CORNered/cornered_pic_blood.png"/>
+            <img src="../../../assets/portfolio/ShootToThrill/yard.png"/>
           </div>
-          <div class="card-center">
-            <h3> Hi </h3>
-            <p class="card-left">
-              a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+          <div>
+            <h3 class="text-left h4 article-title"> Basic AI </h3>
+            <p class="card-text text-left">
+              &ensp;The basic framework for enemies had three major states: Idle, Attacking, and Searching.
+              <br/>
+              &ensp;The Idle state allowed the AI to follow a predetermined path, stopping at certain points to look around. When an AI sees the player, it enters the Attacking state, where it tries to get a certain distance from the player and then fires their weapon. Different weapon types want to be varying distances from the player. For example, a shotgun AI would want to get much closer than an AI with an RPG. Once the AI loses sight of the player, the AI goes to the last known location and wanders around looking for the player before returning to the Idle state.
             </p>
           </div>
-          <div class="card-center">
-            <h3> Hi </h3>
-            <p class="card-right">
-              a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+          <div>
+            <h3 class="text-left h4 article-title"> Support Drone </h3>
+            <p class="card-text text-left">
+              &ensp;The Support Drone went through many iterations, from being a floaty enemy with a pistol, to a healer, to the final version that follows around an enemy and gives them an invincibility shield until the drone is killed.
+              <br/>
+              &ensp;The Drone is unique in that it floats off the ground and also attaches itself to other enemies to shield them. This required separate pathfinding techniques and different states. The drone selects an enemy to shield based on proximity, and then follows their target while pivoting around them. Pivoting allows the drone to be even harder to hit, further adding to the difficulty of this enemy.
             </p>
           </div>
           <div class="card-image">
-            <img src="../../../assets/portfolio/CORNered/cornered_pic_blood.png"/>
+            <img src="../../../assets/portfolio/ShootToThrill/tunnel.png"/>
           </div>
         </div>
 

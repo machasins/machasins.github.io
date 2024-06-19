@@ -188,37 +188,44 @@
       <article class="about  active">
 
         <header>
-          <h2 class="h2 article-title">Cut, Copy, Paste</h2>
+          <h2 class="h2">Cut, Copy, Paste</h2>
+          <p class="h5 text-right article-title"> (Aug 2017 - Apr 2018)</p>
         </header>
-        <p class="card-center">
-          a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+        <p class="card-text text-center">
+          A 2D puzzle platformer in which the player cuts, copies, and pastes blocks to traverse a digital world. The game was featured at DigiPen's PAX Arcade Booth in 2018.
+          <br/>
+          I worked on <i>Cut, Copy, Paste</i> for a year as a tools and graphics programmer. Throughout the project, I worked on a fully-featured level editor that supported designers and decreased iteration time significantly, an interactive level selection screen that showcased the level along with high scores, and a custom graphics engine build from the ground up to create multi-pass post-processing effects.
         </p>
 
         <video class="card-video" width="90%" loop controls autoplay muted>
-          <source src="../../../assets/portfolio/CORNered/cornered_destruction.mp4" type="video/mp4">
+          <source src="../../../assets/portfolio/CCP/ccp_trailer.mp4" type="video/mp4">
         </video>
         
         <br/>
         
         <div class="grid">
           <div class="card-image">
-            <img src="../../../assets/portfolio/CORNered/cornered_pic_blood.png"/>
+            <img src="../../../assets/portfolio/CCP/C.C.P._1_hires.jpg"/>
           </div>
-          <div class="card-center">
-            <h3> Hi </h3>
-            <p class="card-left">
-              a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+          <div>
+            <h3 class="text-left h4 article-title"> Graphics Engine </h3>
+            <p class="card-text text-left">
+              &ensp;The bulk of my time spent on this project was working on the custom engine, mainly developing the graphics system.
+              <br/>
+              &ensp;The engine supported post-processing operations like bloom for neon-like objects and a nice CRT screen effect that distorted the game into the classic CRT shape and added scan lines across the screen for an authentic-looking effect.
             </p>
           </div>
-          <div class="card-center">
-            <h3> Hi </h3>
-            <p class="card-right">
-              a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+          <div>
+            <h3 class="text-left h4 article-title"> Level Editor </h3>
+            <p class="card-text text-left">
+              &ensp;The editor for <i>Cut, Copy, Paste</i> had a multitude of features to support our designers and make iteration time with levels as fast as possible. I worked closely with our level designers to create an application that had everything he needed to do what they do best.
+              <br/>
+              &ensp;The editor was made in C++ using ImGUI, and also incorporated JSON serialization to read into the game. It supported many features including basic operations like moving, modifying, and deleting objects as well as more advanced procedures like multiselection, cut/copy/paste, and a robust undo system.
             </p>
           </div>
-          <div class="card-image">
-            <img src="../../../assets/portfolio/CORNered/cornered_pic_blood.png"/>
-          </div>
+          <video class="card-video" width="100%" loop controls autoplay muted>
+            <source src="../../../assets/portfolio/CCP/ccp_editor.mp4" type="video/mp4">
+          </video>
         </div>
 
       </article>

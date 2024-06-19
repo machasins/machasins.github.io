@@ -188,36 +188,54 @@
       <article class="about  active">
 
         <header>
-          <h2 class="h2 article-title">20XX MAXX</h2>
+          <h2 class="h2">20XX MAXX</h2>
+          <p class="h5 text-right article-title"> (Aug 2018 - Dec 2019)</p>
         </header>
-        <p class="card-center">
-          a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+        <p class="card-text text-center">
+          A 4 player split-screen competitive battle area. Players compete with 6 unique vehicles to collect the most points by defeating other players. Developed for both PC and Xbox One through the Xbox Creator's Program.
+          <br/> <br/>
+          I worked on <i>20XX MAXX</i> for 1.5 years as a gameplay programmer and producer. Over the course of the project, I worked on a camera that adapted to the fast-paced nature of the game, a replay structure that helped with playtesting and continuing development, and a decal system that allowed players to customize their vehicles with 100+ combinations and express themselves through their car.
         </p>
 
         <video class="card-video" width="90%" loop controls autoplay muted>
-          <source src="../../../assets/portfolio/CORNered/cornered_destruction.mp4" type="video/mp4">
+          <source src="../../../assets/portfolio/20XXMAXX/20xx_trailer.mp4" type="video/mp4">
         </video>
         
         <br/>
         
         <div class="grid">
-          <div class="card-image">
-            <img src="../../../assets/portfolio/CORNered/cornered_pic_blood.png"/>
-          </div>
-          <div class="card-center">
-            <h3> Hi </h3>
-            <p class="card-left">
-              a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+          <video class="card-video" width="100%" loop controls autoplay muted>
+            <source src="../../../assets/portfolio/20XXMAXX/20xx_overview.mp4" type="video/mp4">
+          </video>
+          <div>
+            <h3 class="text-left h4 article-title"> Camera </h3>
+            <p class="card-text text-left">
+              &ensp;Much of my work on this project revolved around making a camera that would fit in this fast-paced environment. I used heavy interpolation with the position of the camera and relative rotations to the car to provide a smooth experience. I also implemented collision avoidance and predicting where the player would be driving so the camera could look in that direction.
+              <br/>
+              &ensp;The camera also features lock-on capability that determines what other car should be locked on to based on visibility, distance, and angle.
             </p>
           </div>
-          <div class="card-center">
-            <h3> Hi </h3>
-            <p class="card-right">
-              a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+          <div>
+            <h3 class="text-left h4 article-title"> Replay System </h3>
+            <p class="card-text text-left">
+              &ensp;In a game where playtests could involve four different perspectives an overseer would try to pay attention to, a way to record and run back the data gathered from playtesting would be ideal. This was the motivation for the replay system, which recorded games and was able to play them back at runtime to a good amount of accuracy.
+              <br/>
+              &ensp;The replay system tracks the player's inputs in addition to the position and rotation of the car. If only the input were tracked, the car would quickly become desynced and run off track. If only the car's values, the playback would be jerky and inaccurate. To provide the best experience for users, I used both.
             </p>
           </div>
-          <div class="card-image">
-            <img src="../../../assets/portfolio/CORNered/cornered_pic_blood.png"/>
+          <video class="card-video" width="100%" loop controls autoplay muted>
+            <source src="../../../assets/portfolio/20XXMAXX/20xx_replay.mp4" type="video/mp4">
+          </video>
+          <video class="card-video" width="100%" loop controls autoplay muted>
+            <source src="../../../assets/portfolio/20XXMAXX/20xx_carselect.mp4" type="video/mp4">
+          </video>
+          <div>
+            <h3 class="text-left h4 article-title"> Decal System </h3>
+            <p class="card-text text-left">
+              &ensp;A neat way to give players a way to build a bond with their car and be able to identify it is to have customization. I accomplished this with a decal system, which simply changed the colors of the player's car. Both primary and accent colors could be chosen, with accent colors glowing like neon.
+              <br/>
+              &ensp;Throughout the testing of the game, players always spent time meticulously choosing the perfect color combination for their car to personalize it to them. The decal system was a great way to get players engaged right from the beginning before the match even started.
+            </p>
           </div>
         </div>
 

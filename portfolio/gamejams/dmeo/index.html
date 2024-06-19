@@ -188,37 +188,49 @@
       <article class="about  active">
 
         <header>
-          <h2 class="h2 article-title">D'MEO</h2>
+          <h2 class="h2">D'MEO</h2>
+          <p class="h5 text-right article-title"> (Apr 2023 - 7 Days)</p>
         </header>
-        <p class="card-center">
-          a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+        <p class="card-text text-center">
+          A first person dungeon crawler in which the player fights their inner demons while traversing the dungeon that is their own mind. <i>D'MEO</i> was made in Unity as part of a week long game jam with a team consisting of an artist and 3 total programmers.
+          <br/> <br/>
+          I worked on systems throughout the game, mostly the movement and combat systems. The classic dungeon crawler grid-based movement system was a requirement for the jam, and I made a very adaptable, smooth system. The combat was turn based, where the player attacked with a accuracy minigame and had to dodge the enemy's attack, Undertale style, with a grid-based twist.
+          <br/>
         </p>
 
-        <video class="card-video" width="90%" loop controls autoplay muted>
-          <source src="../../../assets/portfolio/CORNered/cornered_destruction.mp4" type="video/mp4">
-        </video>
+        <div class="grid">
+          
+          
+        </div>
         
         <br/>
         
+        <div class="card-image">
+          <img width="100%" src="../../../assets/portfolio/dmeo/dmeo_pic_menu.png"/>
+        </div>
+        <br/>
+        
         <div class="grid">
-          <div class="card-image">
-            <img src="../../../assets/portfolio/CORNered/cornered_pic_blood.png"/>
-          </div>
-          <div class="card-center">
-            <h3> Hi </h3>
-            <p class="card-left">
-              a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+          <video class="card-video" width="100%" loop controls autoplay muted>
+            <source src="../../../assets/portfolio/dmeo/dmeo_combat.mp4" type="video/mp4">
+          </video>
+          <div>
+            <h3 class="text-left h4 article-title"> Combat </h3>
+            <p class="card-text text-left">
+              &ensp;The combat system I designed follows a turn-based approach. The player has three attack options: sword, bow, and magic. The sword attack involves sliding vertical bars towards a central heart, while the bow attack features synchronized crosshairs swiftly moving across the screen. The magic attack requires navigating a spell past rotating walls. After the player attacks, they must dodge the enemy's counter-attack.
+              <br/>
+              &ensp;Enemies present various challenges, such as eye turrets, flying hats, and wandering ghosts. Movement is grid-based, with the player confined to a five by five grid, mirroring the game's navigation system.
             </p>
           </div>
-          <div class="card-center">
-            <h3> Hi </h3>
-            <p class="card-right">
-              a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+          <div>
+            <h3 class="text-left h4 article-title"> Grid Movement </h3>
+            <p class="card-text text-left">
+              &ensp;I designed the movement system for the game, which was a dungeon crawler at its core. To enhance the gameplay experience, we implemented a smooth movement system where the camera smoothly transitions across each tile. Achieving smooth movement added complexity, and I utilized interpolation techniques to ensure the player's movement and turning were as seamless as possible. Holding down a key resulted in continuous and uninterrupted movement. The movement system was versatile enough to be adapted for dodging enemy attacks in the combat system with minor adjustments.
             </p>
           </div>
-          <div class="card-image">
-            <img src="../../../assets/portfolio/CORNered/cornered_pic_blood.png"/>
-          </div>
+          <video class="card-video" width="100%" loop controls autoplay muted>
+            <source src="../../../assets/portfolio/dmeo/dmeo_movement.mp4" type="video/mp4">
+          </video>
         </div>
 
       </article>
