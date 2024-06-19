@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>[MK] Shoot To Thrill</title>
+  <title>[MK] CORNered</title>
   
   
   <!--
@@ -188,10 +188,13 @@
       <article class="about  active">
 
         <header>
-          <h2 class="h2 article-title">Shoot To Thrill</h2>
+          <h2 class="h2 article-title">CORNered</h2>
         </header>
-        <p class="card-center">
-          a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+        <p class="h5 text-right"> (May 2023 - 4 Days)</p>
+        <p class="card-text text-center">
+          A top-down zombie shooter in which the player has to fend off against corn-ified monsters. <i>CORNered</i> was made in Unity as part of a 4 day game jam, with a team consisting of 3 artists, a sound designer, and me as the sole game designer and programmer.
+          <br/>
+          I developed the entire game, including three unique weapons, four types of enemies (including multiple stages of a boss), dynamic destructible props throughout the level, a wave system for spawning enemies, as well as implementing and adapting art and audio assets made throughout the jam.
         </p>
 
         <video class="card-video" width="90%" loop controls autoplay muted>
@@ -204,20 +207,35 @@
           <div class="card-image">
             <img src="../../../assets/portfolio/CORNered/cornered_pic_blood.png"/>
           </div>
-          <div class="card-center">
-            <h3> Hi </h3>
-            <p class="card-left">
-              a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+          <div>
+            <h3 class="text-left h4"> Weapons </h3>
+            <p class="card-text text-left">
+              The weapons of <i>CORNered</i> were a scythe that allowed the player to dash, a shotgun that had a large spread, and a flamethrower for more focused, continuous attacks.
+              <br/>
+              These weapons were implemented using an adaptable shooting system which controlled the amount of bullets, rate of fire, spread, speed, variability, and more. I also implemented effects for the weapons, as well as a system for determining what weapon sprite to use based on the angle of fire. 
             </p>
           </div>
-          <div class="card-center">
-            <h3> Hi </h3>
-            <p class="card-right">
-              a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+          <div>
+            <h3 class="text-left h4"> Enemies </h3>
+            <p class="card-text text-left">
+              I implemented three basic types of enemies, all with unique animations and attributes. There was a fragile but quick bud enemy, a standard medium sized enemy, and a large enemy that exploded into popcorn on death. The enemies pathfinding made use of the <i>AStar Pathfinding Project</i> to dynamically find a path to the player through a changing landscape.
+              <br/>
+              I also implemented three stages of a boss, fought over the course of the whole game. The boss had rings of popcorn skulls floating around that would periodically break out of the ring and fly towards the player. The later stages of the fight had more rings and more skulls flying at the player.
             </p>
           </div>
           <div class="card-image">
             <img src="../../../assets/portfolio/CORNered/cornered_pic_blood.png"/>
+          </div>
+          <div class="card-image">
+            <img src="../../../assets/portfolio/CORNered/cornered_pic_blood.png"/>
+          </div>
+          <div>
+            <h3 class="text-left h4"> Destructibles </h3>
+            <p class="card-text text-left">
+              Most of the level was actually completely destructible, allowing the player (or enemies) to blast through walls or objects to get where they were going. The player also had the ability to rebuild walls to fortify his defenses.
+              <br/>
+              I implemented this by simply changing out the sprite used when the object is broken and putting it back when fixed, along with some nice particle effects and sounds for added immersion. Objects that could not be rebuilt just burst into particles. There were also animals that roamed the map that would explode into gore upon death, which really added to the fun factor of the game.
+            </p>
           </div>
         </div>
 
